@@ -10,9 +10,9 @@ name: P&W 竞斗云_Mleaf
 on: 
   release:
     types: [published]
-  push:
-    branches: 
-      - master
+  #push:
+    #branches: 
+      #- master
     paths:
       - 'pw.config'
       - 'pw.sh'
